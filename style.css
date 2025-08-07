@@ -183,3 +183,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .new-border{
     border-bottom: 1px solid rgba(154, 150, 150, 0.5);
 }
+.navbar-color{
+    background-color: rgb(30, 30, 30);
+    border: none;
+}

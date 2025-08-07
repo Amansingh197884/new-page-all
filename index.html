@@ -35,6 +35,7 @@
 <body>
     <!-- header  -->
     <!-- navbar start  -->
+     <header>
     <nav class="navbar navbar-expand-lg  fixed-top  Aman">
         <div class="container-fluid Amann">
             <!-- logo -->
@@ -105,6 +106,7 @@
             </div>
         </div>
     </nav>
+    </header>
     <!-- navbar end  -->
 
 
@@ -728,7 +730,27 @@
         });
     </script>
 
+<script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+></script>
 
+<script>
+    jQuery(function($)
+{
+    var $navbar = $('.navbar');
+    $(window).scroll(function(event){
+        var $current =$(this).scrollTop();
+        if( $current > 0){
+            $navbar.addClass('navbar-color');
+
+        }
+        else{
+            $navbar.removeClass('navbar-color');
+        }
+    }
+);
+});
+</script>
 </body>
 
 </html>
