@@ -2,12 +2,12 @@
     .home h1{
          font-size: 15vw !important;
         color: white;
-        font-weight: bolder;
+        font-weight: bold;
         padding-top: 70px;
 }
 .home p{
     color: white;
-    font-size: 19px;
+    font-size: 11px;
     padding-top: 15px;
 }
 }
