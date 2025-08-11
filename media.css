@@ -1,6 +1,13 @@
 @media  screen and (max-width:666px) {
     .home h1{
-    font-size: 15px !important;
+         font-size: 15vw !important;
+        color: white;
+        font-weight: bolder;
+        padding-top: 70px;
+}
+.home p{
     color: white;
+    font-size: 19px;
+    padding-top: 15px;
 }
 }
