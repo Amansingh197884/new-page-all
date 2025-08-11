@@ -341,3 +341,15 @@ box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 
     border-radius: .25rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
+
+
+.new-b{
+    font-size: 22px;
+}
+.new-b{
+    border: 1px solid #ff9c00;
+    padding: 6px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #d79b1b;
+}
