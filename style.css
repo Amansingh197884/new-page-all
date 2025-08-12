@@ -56,10 +56,10 @@ p {
 }
 
 @media screen and (max-width:600px){
-    .home{
+    /* .home{
     height: 60vh !important;
-        /* padding: 20px !important; */
-    }
+        padding: 20px !important;
+    } */
     .btn-main{
         visibility: hidden !important;
     }
