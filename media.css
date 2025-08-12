@@ -122,6 +122,9 @@
     .form-all{
         margin-top: 15px !important;
     }
+    .new-pa{
+    padding: 20px !important;
+}
 }
 
 #nav-small li a:hover {
@@ -131,4 +134,7 @@
 
 .new-c {
     visibility: visible;
+}
+.new-pa{
+    padding: 50px;
 }
