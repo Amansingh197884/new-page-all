@@ -120,10 +120,12 @@
         visibility: hidden !important;
     }
     .form-all{
-        margin-top: 15px !important;
+        margin-top: 20px !important;
     }
     .new-pa{
     padding: 20px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
 }
 }
 
