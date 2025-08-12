@@ -41,7 +41,7 @@ p {
 .home {
     height: 100vh;
     width: 1920px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)), url(images/banner-1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)), url(https://amansingh197884.github.io/Godrej-Tiara/assets/img/banner/banner-1.webp);
     background-size: cover;
     position: relative;
     overflow: hidden;
@@ -59,7 +59,7 @@ p {
 @keyframes change {
     0% {
         background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),
-            url(images/banner-1.jpg);
+            url(https://amansingh197884.github.io/Godrej-Tiara/assets/img/banner/banner-1.webp);
 
 
     }
