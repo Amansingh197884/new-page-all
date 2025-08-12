@@ -119,6 +119,9 @@
     .new-c {
         visibility: hidden !important;
     }
+    .form-all{
+        margin-top: 15px !important;
+    }
 }
 
 #nav-small li a:hover {
