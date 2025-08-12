@@ -68,7 +68,22 @@ p{
 }
 
 
+.hero{
+     height: 70vh;
+    width: 1920px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)), url(https://i.pinimg.com/1200x/d2/59/42/d25942ea80c0260acc8709590247f81a.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    /* padding-top: 125px; */
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
+}
 
 
 
@@ -253,6 +268,17 @@ li{
     line-height: 1.2em;
     margin-bottom: 0;
     border-bottom: solid 1.5px #e3c27a;
+}
+
+@media screen and (max-width:992px) {
+    .head-h1{
+    display: inline-block;
+    color: #fff;
+    font-size: 40px;
+    line-height: 1.2em;
+    margin-bottom: 0;
+    border-bottom: solid 1.5px #e3c27a;
+}
 }
 .air{
 
