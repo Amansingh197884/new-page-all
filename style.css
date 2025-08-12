@@ -446,3 +446,18 @@ box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 
     background-color: #f2ebeb;
     color: black;
 }
+.hi{
+    display: grid;
+}
+.form-btn{
+    border-radius: 50px;
+    border: none;
+    align-items: center;
+    text-align: center;
+}
+.btn-form p{
+    font-size: 20px !important;
+    color: white;
+     font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
