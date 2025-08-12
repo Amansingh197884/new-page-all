@@ -71,7 +71,6 @@ p{
 .hero{
      height: 70vh;
     width: 1920px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)), url(https://i.pinimg.com/1200x/d2/59/42/d25942ea80c0260acc8709590247f81a.jpg);
     background-size: cover;
     position: relative;
     overflow: hidden;
@@ -85,7 +84,14 @@ p{
 
 }
 
-
+.btn-card{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #e3c27a;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+}
 
 
 
