@@ -1,48 +1,53 @@
-@media  screen and (max-width:666px) {
-    .home h1{
-         font-size: 15vw !important;
+@media screen and (max-width:666px) {
+    .home h1 {
+        font-size: 15vw !important;
         color: white;
         font-weight: bold;
         padding-top: 70px;
+    }
+
+    .home p {
+        color: white;
+        font-size: 11px;
+        padding-top: 15px;
+    }
 }
-.home p{
-    color: white;
-    font-size: 11px;
-    padding-top: 15px;
-}
-}
+
 @media screen and (max-width:780px) {
     .head-h2 {
-    margin-top: 0;
-    font-size: 35px;
-    margin-bottom: 20px;
-    line-height: 1.1em;
-    font-weight: bold;
-    padding-bottom: 5px;
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-}
+        margin-top: 0;
+        font-size: 35px;
+        margin-bottom: 20px;
+        line-height: 1.1em;
+        font-weight: bold;
+        padding-bottom: 5px;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+    }
 }
 
 @media only screen and (max-width: 992px) {
-    #nav-small{
+    #nav-small {
         width: 100%;
         position: absolute;
         text-align: center !important;
     }
 }
+
 @media only screen and (max-width: 992px) {
-   #nav-small{
+    #nav-small {
         width: 100%;
         padding-right: 30px;
         position: absolute;
     }
 }
-#nav-small{
+
+#nav-small {
     margin: 0;
 }
+
 @media only screen and (max-width: 992px) {
-    #nav-small{
+    #nav-small {
         /* position: fixed; */
         /* height: 100%; */
         z-index: 200;
@@ -57,14 +62,16 @@
         top: 100px;
     }
 }
-#nav-small{
+
+#nav-small {
     font-size: 14px;
     margin: 0 auto;
     padding: 0;
     float: none;
 }
+
 @media only screen and (max-width: 992px) {
-   #nav-small li {
+    #nav-small li {
         border-bottom: solid 1px rgba(255, 255, 255, 0.2);
         margin: 0;
         width: 100% !important;
@@ -89,6 +96,7 @@
         font-size: 17px;
     }
 }
+
 @media only screen and (max-width: 992px) {
     #nav-small a.nav-link {
         text-align: left;
@@ -97,21 +105,27 @@
         padding-bottom: 10px;
     }
 }
+
 @media only screen and (max-width: 992px) {
     #nav-small li a {
         color: #eceff3;
     }
-    .nav-item{
-border-bottom: 1px solid white !important;
-/* width: 100% !important; */
+
+    .nav-item {
+        border-bottom: 1px solid white !important;
+        /* width: 100% !important; */
     }
-    .new-c{
-visibility: hidden !important;    }
+
+    .new-c {
+        visibility: hidden !important;
+    }
 }
 
- #nav-small li a:hover{
+#nav-small li a:hover {
     color: rgb(224, 172, 103) !important;
     /* font-weight: bold; */
 }
-.new-c{
-visibility: visible;}
+
+.new-c {
+    visibility: visible;
+}

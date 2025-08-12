@@ -1,34 +1,43 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sen:wght@400..800&display=swap');
 
 h1,
-h2,h3,h4,h5,h6{
-      font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
 }
-.subtitle{
-         font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  letter-spacing: 1.3px;
+
+.subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1.3px;
 }
-p{
-      font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
-.navbar{
+
+.navbar {
     border-bottom: 1px solid rgba(154, 150, 150, 0.5);
     padding: 20px !important;
 }
-.logo img{
+
+.logo img {
     width: 50px;
 }
-.nav-item .nav-link{
+
+.nav-item .nav-link {
     color: #fff !important;
 }
+
 .home {
     height: 100vh;
     width: 1920px;
@@ -49,27 +58,27 @@ p{
 
 @keyframes change {
     0% {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)), 
-        url(images/banner-1.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),
+            url(images/banner-1.jpg);
 
 
     }
 
     20% {
         background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),
-        url(images/banner-2.jpg);
+            url(images/banner-2.jpg);
     }
 
     40% {
         background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),
-         url(images/banner-4.jpg);
+            url(images/banner-4.jpg);
     }
 
 }
 
 
-.hero{
-     height: 70vh;
+.hero {
+    height: 70vh;
     width: 1920px;
     background-size: cover;
     position: relative;
@@ -84,7 +93,7 @@ p{
 
 }
 
-.btn-card{
+.btn-card {
     padding: 10px 20px;
     text-decoration: none;
     color: white;
@@ -95,29 +104,31 @@ p{
 
 
 
-  
 
 
 
 
-.home h1{
+
+.home h1 {
     font-size: 96px;
     color: white;
-      font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
 }
-.home p{
+
+.home p {
     color: white;
     font-size: 15px;
     padding-top: 15px;
-      font-family: "Sen", sans-serif;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Sen", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
-.btn-main{
+
+.btn-main {
     display: inline-block;
     font-family: var(--body-font);
     text-align: center;
@@ -131,99 +142,113 @@ p{
     letter-spacing: 2px;
     border: 1.5px solid rgba(154, 150, 150, 0.5);
     /* border-radius: 5px; */
- 
+
 }
-.btn-main:hover{
+
+.btn-main:hover {
     background-color: rgb(186, 163, 121);
     box-shadow: rgba(226, 199, 148, 0.957) 0px 10px 50px;
 }
 
-.head-h2{
+.head-h2 {
     margin-top: 0;
     font-size: 48px;
     margin-bottom: 20px;
     line-height: 1.1em;
     font-weight: bold;
     padding-bottom: 5px;
-   font-family: "Montserrat", sans-serif;
-  font-style: normal;}
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+
 .rounded-20 {
     border-radius: 20px;
 
     position: relative;
 }
-.head-p{
+
+.head-p {
     color: #928a8a;
     font-weight: 380;
     font-size: 18px;
 }
 
-a{
-      font-weight: bold;
+a {
+    font-weight: bold;
     padding-bottom: 5px;
-   font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  text-decoration: none;
-}
-.lis-1{
-      /* font-weight: bold; */
-    padding-bottom: 5px;
-   font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-size: 20px !important;
-  cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    text-decoration: none;
 }
 
+.lis-1 {
+    /* font-weight: bold; */
+    padding-bottom: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 20px !important;
+    cursor: pointer;
+}
 
 
-.aman{
+
+.aman {
 
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
     box-shadow: rgba(226, 177, 117, 0.582) 0px -90px 35px -8px inset;
     position: relative;
-    
+
 }
-.aman-h2{
-    padding-top: 340px; text-align: center;
-color: white;
-/* font-size: 40px; */
-   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+
+.aman-h2 {
+    padding-top: 340px;
+    text-align: center;
+    color: white;
+    /* font-size: 40px; */
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     font-weight: bold;
 
 
 
 
 }
-.aman-h3{
-     padding-top: 300px;
-color: white;
-/* font-size: 40px; */
-   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-    font-weight: bold;}
-.po h3{
-  opacity: 1;  
+
+.aman-h3 {
+    padding-top: 300px;
+    color: white;
+    /* font-size: 40px; */
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
 }
-.po h3:hover{
-  opacity: 0;  
+
+.po h3 {
+    opacity: 1;
 }
-.card-new{
+
+.po h3:hover {
+    opacity: 0;
+}
+
+.card-new {
     transition: 0.6s;
     opacity: 0;
     height: 100%;
     position: absolute;
     padding: 30px;
 }
-.aman .card-new:hover{
+
+.aman .card-new:hover {
     opacity: 1;
 }
-.btn-mainn{
-      display: inline-block;
+
+.btn-mainn {
+    display: inline-block;
     font-family: var(--body-font);
     text-align: center;
     color: #fff;
@@ -238,36 +263,44 @@ color: white;
     border-radius: 5px;
     background-color: #e3c27a;
 }
-.card-new p{
+
+.card-new p {
     line-height: 1.8;
     color: #f2ebeb !important;
 }
-.new-para{
+
+.new-para {
     text-align: center;
     padding: 10px 50px;
- border-radius: 20px;
+    border-radius: 20px;
     transition: all 0.3s ease-in-out;
     width: 50vh;
     height: 55vh;
     background-color: #fff;
 }
-.new-para p{
+
+.new-para p {
     font-size: 15px;
 }
-.new-border{
+
+.new-border {
     border-bottom: 1px solid rgba(154, 150, 150, 0.5);
 }
-.navbar-color{
+
+.navbar-color {
     background-color: rgb(30, 30, 30);
     border: none;
 }
-.new{
+
+.new {
     background-image: url(https://i.pinimg.com/736x/18/90/ce/1890ce5a1b0ee9ea4d73cd425275e654.jpg);
 }
-li{
+
+li {
     list-style: none;
 }
-.head-h1{
+
+.head-h1 {
     display: inline-block;
     color: #fff;
     font-size: 60px;
@@ -277,27 +310,25 @@ li{
 }
 
 @media screen and (max-width:992px) {
-    .head-h1{
-    display: inline-block;
-    color: #fff;
-    font-size: 40px;
-    line-height: 1.2em;
-    margin-bottom: 0;
-    border-bottom: solid 1.5px #e3c27a;
-}
-}
-.air{
-
-}
-#subheader.text-light .crumb {
-    color: #fff;
+    .head-h1 {
+        display: inline-block;
+        color: #fff;
+        font-size: 40px;
+        line-height: 1.2em;
+        margin-bottom: 0;
+        border-bottom: solid 1.5px #e3c27a;
+    }
 }
 
-.air{
+.air {}
+
+
+.air {
     padding-top: 10px;
     margin-bottom: -85px;
 }
-.air li a{
+
+.air li a {
     font-size: 20px;
     color: #efe9e9;
     margin: 0;
@@ -305,46 +336,38 @@ li{
     font-weight: 400;
     text-decoration: none;
 }
-.air{
+
+.air {
     display: block;
     padding: 3px 10px;
     margin-top: 20px;
     line-height: 1.2em;
     border-radius: 30px;
-  
+
 }
+
 /* location start  */
 
-    
+
 
 
 /* location end  */
 
 /* about css  */
-.card-text h3{
+.card-text h3 {
     font-weight: 700;
 }
-.card-text p{
-       color: #565454;
+
+.card-text p {
+    color: #565454;
     font-weight: 380;
     font-size: 18px;
 }
-/* about css  */
-.text{
-    padding:2px 10px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    background: #c21500;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-}
-.text p{
-    text-align: center;
-}
-.head-form{
+/* about css  */
+
+
+.head-form {
     color: #000;
     font-size: 40px;
     letter-spacing: 1px;
@@ -352,6 +375,7 @@ background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, F
     margin-bottom: 10px;
     font-family: "Merriweather", serif;
 }
+
 .contact_field .form-control {
     border-radius: 0px;
     border: none;
@@ -361,36 +385,39 @@ background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, F
 
 
 
-.form{
+.form {
     background: rgba(255, 255, 255, 0.1);
     color: #fff;
-    border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 15px;
     padding: 15px;
     font-size: 16px;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
-.form{
+
+.form {
     background-color: rgba(245, 245, 245, 0.2);
     color: white;
     border: none;
     border-radius: 15px;
     padding: 15px;
 }
-.form{
+
+.form {
     border-radius: 10px;
     padding: 10px 15px;
     border: 2px solid #fff;
 }
+
 .form-group {
     margin-bottom: 20px;
 }
 
-.form-group, .top-footer .container {
+.form-group,
+.top-footer .container {
     position: relative;
 }
 
-.form{
+.form {
     display: block;
     width: 100%;
     padding: .375rem .75rem;
@@ -401,16 +428,17 @@ background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, F
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #ced4da;
-box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
+    box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 
-.new-b{
+.new-b {
     font-size: 22px;
 }
-.new-b{
+
+.new-b {
     border: 1px solid #ff9c00;
     padding: 6px 15px;
     border-radius: 50px;
@@ -427,8 +455,9 @@ box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 
     font-size: 16px;
     margin: 0 3px 0 3px;
     border-radius: 50% 50% 0 0;
-   
+
 }
+
 .social-icons a {
     background-color: #c08831;
     width: 35px;
@@ -442,22 +471,140 @@ box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 
     text-align: center;
     margin: 4px 0 0 10px;
 }
-.social-icons i:hover{
+
+.social-icons i:hover {
     background-color: #f2ebeb;
     color: black;
 }
-.hi{
+
+.hi {
     display: grid;
 }
-.form-btn{
+
+.form-btn {
     border-radius: 50px;
     border: none;
     align-items: center;
     text-align: center;
 }
-.btn-form p{
+
+.btn-form p {
     font-size: 20px !important;
     color: white;
-     font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 600;
+}
+
+
+.form-start {
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 8px 32px 0 rgba(127, 102, 74, 0.4);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.form-all {
+    text-align: center;
+    color: #a28261;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 22px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(127, 102, 74, 0.4);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.form-group input,
+.form-group textarea {
+    border-radius: 6px !important;
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 16px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.form-control {
+    background-color: rgba(245, 245, 245, 0.2);
+    color: var(--bd-color-common-white);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.form-control {
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: 2px solid #fff;
+}
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-a:hover {
+    background-color: #a28261;
+    box-shadow: 0 0 5px #a28261, 0 0 25px #a28261, 0 0 50px #a28261, 0 0 200px #a28261;
+}
+
+.btn-a {
+    padding: 5px 15px;
+    color: #fff;
+    position: relative;
+    padding: 5px 15px;
+    background: transparent;
+    border: 1px solid white;
+}
+
+.vibhor {
+    cursor: pointer !important;
+}
+
+.new-show {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background: #c21500;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc500, #c21500);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc500, #c21500);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }

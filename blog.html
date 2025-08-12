@@ -2,149 +2,157 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>document</title>
 
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- 
     - favicon
   -->
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
-    <!-- 
+  <!-- 
     - custom css link
   -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media.css">
-    <!-- 
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <!-- 
     - google font link
   -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-     <!-- navbar start  -->
-    <header>
+  <!-- navbar start  -->
+  <header>
     <nav class="navbar navbar-expand-lg  fixed-top">
-        <div class="container-fluid Amann">
-            <!-- logo -->
-            <h2 class="navbar-brand align-items-center  text-white d-flex " href="index.html">Aajneeti</h2>
+      <div class="container-fluid Amann">
+        <!-- logo -->
+        <h2 class="navbar-brand align-items-center  text-white d-flex " href="index.html">Aajneeti</h2>
 
-            <!-- navbar-toggler -->
-            <button class="navbar-toggler navbar-toggler-white  shadow-none border-0" type="button"
-                data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
-                aria-label="Toggle navigation">
-                <!-- <span class="navbar-toggler-icon"></span> -->
-                 <svg style="color: white;" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-list-task navbar-toggler-icon" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M2 2.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5zM3 3H2v1h1z"/>
-  <path d="M5 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M5.5 7a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 4a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1z"/>
-  <path fill-rule="evenodd" d="M1.5 7a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5zM2 7h1v1H2zm0 3.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm1 .5H2v1h1z"/>
-</svg>
-            </button>
-            <!-- sidebar -->
-            <div style="background-color: black;" class="offcanvas offcanvas-end" tabindex="" id="offcanvasNavbar"
-                aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header text-dark border-bottom">
-                    <h3 class="offcanvas-title kite text-white" id="offcanvasNavbarLabel">Aajneeti</h3>
-                    <button type="button" class="btn-close btn-close-white shadow-none border-0"
-                        data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <!-- sidebar -->
-                <div class="offcanvas-body justify-content-between  ayush">
-                    <ul id="nav-small" class="navbar-nav justify-content-center fs-8  flex-grow-1 pe-1  p- ayush">
-                        <li class="nav-item mx-2 ">
-                            <a class="nav-link active " aria-current="page" href="index.html">Home</a>
-                        </li>
-
-
-
-                        <li class="nav-item mx-2">
-                            <a class="nav-link" href="about.html">About Us</a>
-                        </li>
-
-                        <li class="nav-item mx-2">
-                            <a class="nav-link " href="location.html">location</a>
-                        </li>
-
-                        <li class="nav-item mx-2">
-                            <a class="nav-link " href="blog.html">blog</a>
-                        </li>
-
-                        <li class="nav-item mx-2">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="project.html" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Projects
-                            </a>
-                            <ul class="dropdown-menu">
-
-                                <li><a class="dropdown-item" href="project.html">All Projects</a></li>
-                                <li><a class="dropdown-item" href="move.html">Ready To Move</a></li>
-                                <li><a class="dropdown-item" href="under.html">Under Construction</a></li>
-                                <li><a class="dropdown-item" href="new-launch.html">New Launch</a></li>
+        <!-- navbar-toggler -->
+        <button class="navbar-toggler navbar-toggler-white  shadow-none border-0" type="button"
+          data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <svg style="color: white;" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+            class="bi bi-list-task navbar-toggler-icon" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M2 2.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5zM3 3H2v1h1z" />
+            <path
+              d="M5 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M5.5 7a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 4a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1z" />
+            <path fill-rule="evenodd"
+              d="M1.5 7a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5zM2 7h1v1H2zm0 3.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm1 .5H2v1h1z" />
+          </svg>
+        </button>
+        <!-- sidebar -->
+        <div style="background-color: black;" class="offcanvas offcanvas-end" tabindex="" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header text-dark border-bottom">
+            <h3 class="offcanvas-title kite text-white" id="offcanvasNavbarLabel">Aajneeti</h3>
+            <button type="button" class="btn-close btn-close-white shadow-none border-0" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <!-- sidebar -->
+          <div class="offcanvas-body justify-content-between  ayush">
+            <ul id="nav-small" class="navbar-nav justify-content-center fs-8  flex-grow-1 pe-1  p- ayush">
+              <li class="nav-item mx-2 ">
+                <a class="nav-link active " aria-current="page" href="index.html">Home</a>
+              </li>
 
 
-                            </ul>
-                        </li>
 
-                    
-                    </ul>
-                    <!-- CONTACT US  -->
-                    <a href="#" class="btn-main btn-line new-c">+91 9711331371</a>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
 
-                </div>
-            </div>
+              <li class="nav-item mx-2">
+                <a class="nav-link " href="location.html">location</a>
+              </li>
+
+              <li class="nav-item mx-2">
+                <a class="nav-link " href="blog.html">blog</a>
+              </li>
+
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="project.html" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Projects
+                </a>
+                <ul class="dropdown-menu">
+
+                  <li><a class="dropdown-item" href="project.html">All Projects</a></li>
+                  <li><a class="dropdown-item" href="move.html">Ready To Move</a></li>
+                  <li><a class="dropdown-item" href="under.html">Under Construction</a></li>
+                  <li><a class="dropdown-item" href="new-launch.html">New Launch</a></li>
+
+
+                </ul>
+              </li>
+
+
+            </ul>
+            <!-- CONTACT US  -->
+            <a href="#" class="btn-main btn-line new-c">+91 9711331371</a>
+
+          </div>
         </div>
+      </div>
     </nav>
-    </header>
-    <!-- navbar end  -->
-  
-      
+  </header>
+  <!-- navbar end  -->
 
-<!-- content begin -->
 
-    
+
+  <!-- content begin -->
+
+
 
 
 
   <div class="container-fluid hero  relative z-index-1000" style="    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)), url(https://i.pinimg.com/1200x/e3/35/6a/e3356a44ed8404f118f3c985569e2227.jpg) ;
 ">
-        <div class="row justify-content-center align-items-center"
-            style="background-size: cover; background-repeat: no-repeat;">
-            <div class="col-lg-12 text-center" style="background-size: cover; background-repeat: no-repeat;">
-                <h1 class="head-h1">blog</h1>
-                <ul class="air pt-5 justify-content-center pb-5 d-flex">
-                    <li class="text-white ms-3"><a class="" href="index.html">Home </a> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
-</svg> </li>
-                    <li class="lis-1 text-white ps-3">blog</li>
-                </ul>
-            </div>
-        </div>
+    <div class="row justify-content-center align-items-center"
+      style="background-size: cover; background-repeat: no-repeat;">
+      <div class="col-lg-12 text-center" style="background-size: cover; background-repeat: no-repeat;">
+        <h1 class="head-h1">blog</h1>
+        <ul class="air pt-5 justify-content-center pb-5 d-flex">
+          <li class="text-white ms-3"><a class="" href="index.html">Home </a> <svg xmlns="http://www.w3.org/2000/svg"
+              width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+            </svg> </li>
+          <li class="lis-1 text-white ps-3">blog</li>
+        </ul>
+      </div>
     </div>
+  </div>
 
-<!-- new  -->
- <section class="py-2 pt-5 mt-5">
-        <div class="container-fluid ">
+  <!-- new  -->
+  <section class="py-2 pt-5 mt-5 pb-5">
+    <div class="container-fluid ">
 
-           
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="rounded-2 pb-2" style=" background-image:  linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)), url(https://i.pinimg.com/736x/d2/31/72/d23172978375925e0a5da78513ab717e.jpg); height: 500px !important; border-radius: 20px !important; padding-top: 230px !important; box-shadow: rgba(0, 0, 0, 0.5) 0px -90px 36px -28px inset;  background-position:center; background-size: cover !important;
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="rounded-2 pb-2" style=" background-image:  linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)), url(https://i.pinimg.com/736x/d2/31/72/d23172978375925e0a5da78513ab717e.jpg); height: 500px !important; border-radius: 20px !important; padding-top: 230px !important; box-shadow: rgba(0, 0, 0, 0.5) 0px -90px 36px -28px inset;  background-position:center; background-size: cover !important;
 ">
-                         <div class=" w-100" style="background-size: cover; background-repeat: no-repeat; padding: 20px;">
+            <div class=" w-100" style="background-size: cover; background-repeat: no-repeat; padding: 20px;">
               <h3 class="text-white">Bangalore Metro</h3>
               <p class="max-line-4 text-white">
                 Escape to luxury this weekend with our exclusive 20% off deal!
@@ -154,16 +162,16 @@
               <p class="text-white" style="float: right">~12jan,2024</p>
               <a class="btn-card" href="#">Read More</a>
             </div>
-                    </div>
-                </div>
-                <!-- Column 1 -->
-                <div class="col-md-4">
-                    <div class="rounded-2 pb-2" style=" background-image:  linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)), url(https://i.pinimg.com/1200x/c4/05/00/c405001222f2e3dfad06ee0f0fc76689.jpg); height: 500px !important; border-radius: 20px !important; padding-top: 230px !important; box-shadow: rgba(0, 0, 0, 0.5) 0px -90px 36px -28px inset;  background-position:center; background-size: cover !important;
+          </div>
+        </div>
+        <!-- Column 1 -->
+        <div class="col-md-4">
+          <div class="rounded-2 pb-2" style=" background-image:  linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)), url(https://i.pinimg.com/1200x/c4/05/00/c405001222f2e3dfad06ee0f0fc76689.jpg); height: 500px !important; border-radius: 20px !important; padding-top: 230px !important; box-shadow: rgba(0, 0, 0, 0.5) 0px -90px 36px -28px inset;  background-position:center; background-size: cover !important;
 ">
-                         <div class=" w-100" style="background-size: cover; background-repeat: no-repeat; padding: 20px;">
+            <div class=" w-100" style="background-size: cover; background-repeat: no-repeat; padding: 20px;">
               <h3 class="text-white">Tech World</h3>
               <p class="max-line-4 text-white">
-               "Family fun awaits! Book our Family Package and enjoy free
+                "Family fun awaits! Book our Family Package and enjoy free
                 breakfast for kids, access to the kids' club, and a special
                 welcome gift. Create memories that last a lifetime at our
                 family-friendly hotel. 👨‍👩‍👧‍👦
@@ -171,30 +179,30 @@
               <p class="text-white" style="float: right">~12jan,2024</p>
               <a class="btn-card" href="#">Read More</a>
             </div>
-                    </div>
-                </div>
+          </div>
+        </div>
 
-                <!-- Column 2 -->
-                  <div class="col-md-4">
-                    <div class="rounded-2 pb-2" style=" background-image:  linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)), url(https://i.pinimg.com/736x/1c/d6/0f/1cd60ffe64a915035a1bf28fdf86b9c2.jpg); height: 500px !important; border-radius: 20px !important; padding-top: 230px !important; box-shadow: rgba(0, 0, 0, 0.5) 0px -90px 36px -28px inset;  background-position:center; background-size: cover !important;
+        <!-- Column 2 -->
+        <div class="col-md-4">
+          <div class="rounded-2 pb-2" style=" background-image:  linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)), url(https://i.pinimg.com/736x/1c/d6/0f/1cd60ffe64a915035a1bf28fdf86b9c2.jpg); height: 500px !important; border-radius: 20px !important; padding-top: 230px !important; box-shadow: rgba(0, 0, 0, 0.5) 0px -90px 36px -28px inset;  background-position:center; background-size: cover !important;
 ">
-                         <div class=" w-100" style="background-size: cover; background-repeat: no-repeat; padding: 20px;">
+            <div class=" w-100" style="background-size: cover; background-repeat: no-repeat; padding: 20px;">
               <h3 class="text-white">CityOfTech</h3>
               <p class="max-line-4 text-white">
-                 Surprise your loved one with a romantic escape! Our Romance
+                Surprise your loved one with a romantic escape! Our Romance
                 Package includes a candlelit dinner, champagne on arrival, and a
                 couples' massage. Book your dream getaway today! ❤️
               </p>
               <p class="text-white" style="float: right">~12jan,2024</p>
               <a class="btn-card" href="#">Read More</a>
             </div>
-                    </div>
-                </div>
-            </div>
-
-
+          </div>
         </div>
-    </section>
+      </div>
+
+
+    </div>
+  </section>
 
 
 
@@ -202,181 +210,178 @@
 
 
 
-    
-<!-- footer start  -->
-        <footer class="bg-dark text-light p-5 pb-2">
-          <div class="container-fluid new-border" >
-            <div class="row g-4 align-items-center">
-              <div class="col-md-12">
-                <div class="d-lg-flex align-items-center justify-content-between text-center">
-                  <div>
-                    <h3 class="fs-20">Address</h3>
-                    Tower A, Office No.-1510, ATS Bouquet,<br> Sector 132, Noida, Uttar Pradesh
-                  </div>
-                  <div>
-                   <h2>Aajneeti</h2><br>
-                    <div class="social-icons mb-sm-30 mt-4 mb-2" >
-                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                      <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                    </div>
-                  </div>
-                  <div>
-                    <h3 class="fs-20">Contact Us</h3>
-                    T. +91 9711331371<br>
-                    M. info@investinestates.in
-                  </div>
-                </div>
+
+  <!-- footer start  -->
+  <footer class="bg-dark text-light p-5 pb-2">
+    <div class="container-fluid new-border">
+      <div class="row g-4 align-items-center">
+        <div class="col-md-12">
+          <div class="d-lg-flex align-items-center justify-content-between text-center">
+            <div>
+              <h3 class="fs-20">Address</h3>
+              Tower A, Office No.-1510, ATS Bouquet,<br> Sector 132, Noida, Uttar Pradesh
+            </div>
+            <div>
+              <h2>Aajneeti</h2><br>
+              <div class="social-icons mb-sm-30 mt-4 mb-2">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
               </div>
             </div>
-          </div>
-          <div class="footer m-0 pt-3" >
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12 text-center">
-                  <p>Copyright 2025 - Developed By Aajneeti Connect Ltd. All Rights Reserved.</p>
-                </div>
-              </div>
+            <div>
+              <h3 class="fs-20">Contact Us</h3>
+              T. +91 9711331371<br>
+              M. info@investinestates.in
             </div>
           </div>
-        </footer>
-        <!-- footer close -->
+        </div>
+      </div>
+    </div>
+    <div class="footer m-0 pt-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>Copyright 2025 - Developed By Aajneeti Connect Ltd. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer close -->
 
-     
 
 
-    <!-- new section  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- 
+  <!-- new section  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- 
     - custom js link
   -->
-    <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/script.js"></script>
 
-    <!-- 
+  <!-- 
     - ionicon link
   -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 
-    </script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            offset: 100,
-            duration: 400,
-        });
-    </script>
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 100,
+      duration: 400,
+    });
+  </script>
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="app.js"></script>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="app.js"></script>
 
-    <!-- Magnific Popup JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <!-- Magnific Popup JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 
-    <!-- Initialization Script -->
-    <script>
-        $(document).ready(function () {
-            $('.galleryer').magnificPopup({
-                delegate: 'a.image-popup',
-                type: 'image',
-                galleryer: {
-                    enabled: true
-                }
-            });
-        });
-    </script>
+  <!-- Initialization Script -->
+  <script>
+    $(document).ready(function () {
+      $('.galleryer').magnificPopup({
+        delegate: 'a.image-popup',
+        type: 'image',
+        galleryer: {
+          enabled: true
+        }
+      });
+    });
+  </script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
-        integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+    integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <!-- Initialize Swiper -->
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            watchSlidesProgress: true,
-            // slidesPerView: 3,
-            spaceBetween: 10,
-            loop: true,
-            breakpoints: {
-                320: {
-                    slidesPerView: 1,
-                    //   spaceBetween: 20,
-                },
-                // 480: {
-                //     slidesPerView: 2,
-                // },
-                768: {
-                    slidesPerView: 2,
-                    //   spaceBetween: 40,
-                },
-                1200: {
-                    slidesPerView: 3,
-                    //   spaceBetween: 50,
-                },
-            },
-
-
-        });
-    </script>
-
-    <!-- ddcd -->
-    <!-- Initialize Swiper -->
-    <script>
-        var swiper = new Swiper(".mySwiperr", {
-            watchSlidesProgress: true,
-            // slidesPerView: 3,
-            spaceBetween: 100,
-            loop: true,
-            breakpoints: {
-                320: {
-                    slidesPerView: 1,
-                    //   spaceBetween: 20,
-                },
-                // 480: {
-                //     slidesPerView: 2,
-                // },
-                768: {
-                    slidesPerView: 2,
-                    //   spaceBetween: 40,
-                },
-                1200: {
-                    slidesPerView: 3,
-                    //   spaceBetween: 50,
-                },
-            },
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      watchSlidesProgress: true,
+      // slidesPerView: 3,
+      spaceBetween: 10,
+      loop: true,
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+          //   spaceBetween: 20,
+        },
+        // 480: {
+        //     slidesPerView: 2,
+        // },
+        768: {
+          slidesPerView: 2,
+          //   spaceBetween: 40,
+        },
+        1200: {
+          slidesPerView: 3,
+          //   spaceBetween: 50,
+        },
+      },
 
 
-        });
-    </script>
+    });
+  </script>
 
-<script
-  src="https://code.jquery.com/jquery-3.7.1.js"
-></script>
+  <!-- ddcd -->
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiperr", {
+      watchSlidesProgress: true,
+      // slidesPerView: 3,
+      spaceBetween: 100,
+      loop: true,
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+          //   spaceBetween: 20,
+        },
+        // 480: {
+        //     slidesPerView: 2,
+        // },
+        768: {
+          slidesPerView: 2,
+          //   spaceBetween: 40,
+        },
+        1200: {
+          slidesPerView: 3,
+          //   spaceBetween: 50,
+        },
+      },
 
-<script>
-    jQuery(function($)
-{
-    var $navbar = $('.navbar');
-    $(window).scroll(function(event){
-        var $current =$(this).scrollTop();
-        if( $current > 0){
-            $navbar.addClass('navbar-color');
+
+    });
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+  <script>
+    jQuery(function ($) {
+      var $navbar = $('.navbar');
+      $(window).scroll(function (event) {
+        var $current = $(this).scrollTop();
+        if ($current > 0) {
+          $navbar.addClass('navbar-color');
 
         }
-        else{
-            $navbar.removeClass('navbar-color');
+        else {
+          $navbar.removeClass('navbar-color');
         }
-    }
-);
-});
-</script>
+      }
+      );
+    });
+  </script>
 </body>
 
 </html>
