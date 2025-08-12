@@ -58,7 +58,7 @@ p {
 
 @media screen and (max-width:600px){
     .home{
-    height: 87vh;
+    height: 87vh !important;
         padding: 20px !important;
     }
 }
