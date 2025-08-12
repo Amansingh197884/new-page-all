@@ -44,19 +44,24 @@
             <button class="navbar-toggler navbar-toggler-white  shadow-none border-0" type="button"
                 data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                 <svg style="color: white;" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-list-task navbar-toggler-icon" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2 2.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5zM3 3H2v1h1z"/>
+  <path d="M5 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M5.5 7a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 4a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1z"/>
+  <path fill-rule="evenodd" d="M1.5 7a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5zM2 7h1v1H2zm0 3.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm1 .5H2v1h1z"/>
+</svg>
             </button>
             <!-- sidebar -->
-            <div class="offcanvas bg-white offcanvas-end" tabindex="" id="offcanvasNavbar"
+            <div style="background-color: black;" class="offcanvas offcanvas-end" tabindex="" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header text-dark border-bottom">
-                    <h3 class="offcanvas-title kite" id="offcanvasNavbarLabel">Aajneeti</h3>
-                    <button type="button" class="btn-close btn-close-black shadow-none border-0"
+                    <h3 class="offcanvas-title kite text-white" id="offcanvasNavbarLabel">Aajneeti</h3>
+                    <button type="button" class="btn-close btn-close-white shadow-none border-0"
                         data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <!-- sidebar -->
                 <div class="offcanvas-body justify-content-between  ayush">
-                    <ul class="navbar-nav justify-content-center fs-8  flex-grow-1 pe-1  p- ayush">
+                    <ul id="nav-small" class="navbar-nav justify-content-center fs-8  flex-grow-1 pe-1  p- ayush">
                         <li class="nav-item mx-2 ">
                             <a class="nav-link active " aria-current="page" href="index.html">Home</a>
                         </li>
@@ -97,7 +102,7 @@
                     
                     </ul>
                     <!-- CONTACT US  -->
-                    <a href="#" class="btn-main btn-line">+91 9711331371</a>
+                    <a href="#" class="btn-main btn-line new-c">+91 9711331371</a>
 
                 </div>
             </div>
