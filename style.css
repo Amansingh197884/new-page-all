@@ -57,8 +57,11 @@ p {
 
 @media screen and (max-width:600px){
     .home{
-    height: 50vh !important;
-        padding: 20px !important;
+    height: 60vh !important;
+        /* padding: 20px !important; */
+    }
+    .btn-main{
+        visibility: hidden !important;
     }
 }
 
@@ -147,6 +150,7 @@ p {
     font-size: 12px;
     letter-spacing: 2px;
     border: 1.5px solid rgba(154, 150, 150, 0.5);
+    visibility: visible;
     /* border-radius: 5px; */
 
 }
