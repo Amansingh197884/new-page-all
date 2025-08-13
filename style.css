@@ -75,12 +75,12 @@ p {
 
     20% {
         background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),
-            url(images/banner-2.jpg);
+            url(https://i.pinimg.com/1200x/83/d9/c6/83d9c6eecfc647feac79bf2588df933e.jpg);
     }
 
     40% {
         background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),
-            url(images/banner-4.jpg);
+            url(https://i.pinimg.com/1200x/fc/02/64/fc026433a20db53bc4447d4e41f8f830.jpg);
     }
 
 }
