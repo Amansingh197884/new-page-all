@@ -11,7 +11,18 @@ h6 {
     font-weight: bold;
     font-style: normal;
 }
-
+.swiper-slide span{
+       font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: bold; */
+    font-style: normal; 
+}
+.swiper-slide h3{
+       font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: bold; */
+    font-style: normal; 
+}
 .subtitle {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -80,7 +91,7 @@ p {
 
     40% {
         background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),
-                        url(images/Untitled\ design\ \(1\).png);
+                        url(https://i.pinimg.com/736x/c0/7c/53/c07c537ca982aff19ab5a97d4a86f1d9.jpg);
 
     }
 
@@ -205,16 +216,17 @@ a {
 
 .aman {
 
-    background-size: cover;
+    background-size: cover !important;
     background-repeat: no-repeat;
     border-radius: 20px;
-    box-shadow: rgba(226, 177, 117, 0.582) 0px -90px 35px -8px inset;
+    box-shadow: rgba(226, 177, 117, 0.413) 0px -90px 35px -8px inset;
     position: relative;
+    background-position: center;
 
 }
 
 .aman-h2 {
-    padding-top: 340px;
+    padding-top: 375px;
     text-align: center;
     color: white;
     /* font-size: 40px; */
@@ -619,3 +631,46 @@ li {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+.filter-card:hover {
+  
+}
+.CONTENT{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.797);
+    transition: 0.6s;
+    opacity: 0;
+    color: rgb(16, 15, 15);
+    border-radius: 20px;
+    filter: blur(10);
+    
+}
+.CONTENT:hover{
+    opacity: 1;
+    ;
+}
+.star h3{
+    color: white;
+}
+
+.star span{
+    color: #ccc;
+}
+.CONTENT button{
+    border: none;
+    background: #c21500;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc500, #c21500);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc500, #c21500);
+    padding: 7px 20px;
+    border-radius: 50px;
+}
+    
