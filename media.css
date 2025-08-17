@@ -136,7 +136,11 @@ padding: 35px 0px !important;
     margin-bottom: 40px;
     width: 100%;
 }
-.contact
+.contactt{
+padding-top: 20px;
+padding-bottom: 20px;    
+padding: 35px 0px !important;
+}
 }
 
 #nav-small li a:hover {
