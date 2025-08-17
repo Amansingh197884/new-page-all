@@ -127,6 +127,16 @@
     padding-top: 20px !important;
     padding-bottom: 20px !important;
 }
+.contact{
+padding-top: 20px;
+padding-bottom: 20px;    
+padding: 35px 0px !important;
+}
+.contact-info{
+    margin-bottom: 40px;
+    width: 100%;
+}
+.contact
 }
 
 #nav-small li a:hover {
