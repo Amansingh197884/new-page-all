@@ -812,7 +812,7 @@ padding: 5px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    background-color: #f1efef;
     /* text-align: center; */
     /* align-content: center; */
     flex-direction: column;
@@ -934,6 +934,7 @@ padding: 5px 0px;
     font-size: 18px;
     
 }
+
 .contact-form .inputBox input:focus,
 .contact-form .inputBox textarea:focus{
 padding: 5px 0px;  
@@ -944,4 +945,58 @@ padding: 5px 0px;
   border-bottom: 2px solid #e91e63;
   outline: none;
   resize: none;
+}
+
+.information {
+  display: flex;
+  color: #555;
+  margin: 0.7rem 0;
+  align-items: center;
+  font-size: 0.95rem;
+}
+
+.icon {
+  width: 28px;
+  margin-right: 0.7rem;
+}
+
+.social-media {
+  padding: 2rem 0 0 0;
+}
+
+.social-media p {
+  color: #333;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.social-icons a {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  background: linear-gradient(45deg, #1abc9c, #149279);
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 0.5rem;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.05);
+}
+.contact-form .new-box input[type="submit"]
+{
+    width: 100px;
+  background: linear-gradient(45deg, #1abc9c, #149279);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 50px;
+    
 }
