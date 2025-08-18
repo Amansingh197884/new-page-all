@@ -55,7 +55,7 @@ p {
 .home {
     height: 100vh;
     /* width: 1920px; */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.03)), url(https://amansingh197884.github.io/Godrej-Tiara/assets/img/banner/banner-1.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.03)), url(images/banner-a.png);
     background-size: cover !important;
     position: relative;
     overflow: hidden;
@@ -83,19 +83,19 @@ p {
 @keyframes change {
     0% {
         background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),
-            url(https://amansingh197884.github.io/Godrej-Tiara/assets/img/banner/banner-1.webp);
+            url(images/banner-a.png);
 
 
     }
 
     20% {
         background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),
-            url(https://i.pinimg.com/1200x/fc/02/64/fc026433a20db53bc4447d4e41f8f830.jpg);
+            url(images/banner-b.png);
     }
 
     40% {
         background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),
-            url(https://i.pinimg.com/736x/c0/7c/53/c07c537ca982aff19ab5a97d4a86f1d9.jpg);
+            url(images/banner-c.png);
 
     }
 
@@ -905,7 +905,8 @@ li {
 
 .box .text h3 {
     font-weight: 500;
-    color: #00bcd4;
+    /* background: linear-gradient(45deg, #1abc9c, #149279); */
+    color: #1abc9c;
 }
 
 .contact-form {
@@ -962,12 +963,14 @@ li {
 
 .contact-form .inputBox input[type="submit"] {
     width: 100px;
-    background-color: #00bcd4;
+    background: linear-gradient(45deg, #1abc9c, #149279);
+    /* background-color: #00bcd4; */
     color: #fff;
     border: none;
     cursor: pointer;
     padding: 10px;
     font-size: 18px;
+    border-radius: 50px;
 
 }
 
@@ -1129,3 +1132,110 @@ li {
 .item8 {
     animation-delay: calc(30s / 8 * (8 - 8) * -1);
 }
+.new-boy:hover{
+    transform: translateX(10);
+}
+
+
+
+.homee {
+    height: 100vh;
+    /* width: 1920px; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.03)), url(images/banner-a.png);
+    background-size: cover !important;
+    position: relative;
+    overflow: hidden;
+    animation: changee 15s infinite linear;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+
+}
+
+@media screen and (max-width:600px) {
+
+    /* .home{
+    height: 60vh !important;
+        padding: 20px !important;
+    } */
+    .btn-main {
+        visibility: hidden !important;
+    }
+}
+
+@keyframes changee {
+    0% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),
+            url(images/banner-a.png);
+
+
+    }
+
+    20% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),
+            url(images/banner-b.png);
+    }
+
+    40% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),
+            url(images/banner-c.png);
+
+    }
+
+}
+
+
+
+.btn-card {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #e3c27a;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+}
+
+
+
+
+
+
+
+
+.homee h1 {
+    font-size: 96px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.homee p {
+    color: white;
+    font-size: 15px;
+    padding-top: 15px;
+    font-family: "Sen", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+
+.item-new {
+    border-left: 2px solid white;
+}
+.item-new h3{
+    color: rgb(236, 138, 39);
+}
+.bright{
+    background-color: transparent;
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid orange;
+    text-align: center;
+    color: aliceblue;}
