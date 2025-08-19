@@ -11,6 +11,9 @@
         font-size: 11px;
         padding-top: 15px;
     }
+    .amv{
+        padding-left: 0 !important;
+    }
 }
 
 @media screen and (max-width:780px) {
