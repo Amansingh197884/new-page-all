@@ -66,6 +66,8 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
+    /* transition-duration: 10s; */
+    /* transition: 25s; */
 
 }
 
@@ -1141,7 +1143,7 @@ li {
 .homee {
     height: 100vh;
     /* width: 1920px; */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.03)), url(images/banner-a.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.6)), url(images/Untitled\ design\ \(14\)-Picsart-AiImageEnhancer\ \(1\).png);
     background-size: cover !important;
     position: relative;
     overflow: hidden;
@@ -1168,20 +1170,20 @@ li {
 
 @keyframes changee {
     0% {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),
-            url(images/banner-a.png);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.6)),
+            url(images/Untitled\ design\ \(14\)-Picsart-AiImageEnhancer\ \(1\).png);
 
 
     }
 
     20% {
         background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),
-            url(images/banner-b.png);
+            url(images/Untitled\ design\ \(15\).png);
     }
 
     40% {
         background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),
-            url(images/banner-c.png);
+            url(images/Untitled\ design\ \(15\).png);
 
     }
 
@@ -1230,12 +1232,29 @@ li {
     border-left: 2px solid white;
 }
 .item-new h3{
-    color: rgb(236, 138, 39);
+    color: #1abc9c;
 }
 .bright{
     background-color: transparent;
     display: inline-block;
-    border-radius: 10px;
-    border: 1px solid orange;
+    border-radius: 20px;
+    border: 1.5px solid #044f40;
     text-align: center;
-    color: aliceblue;}
+    color: #fff;
+    font-weight: 400;
+  }
+
+
+    .new-button{
+        font-size: 1.1rem;
+        padding: 0.9rem 2em;
+        /* border: 2px solid; */
+        color: #fff;
+        border: none;
+    background: linear-gradient(45deg, #1abc9c, #149279);
+  border-radius: 50px;
+    }
+    .new-button:hover{
+        transform: translateY( -5px);
+        color: #fff;
+    }
