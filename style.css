@@ -672,7 +672,7 @@ li {
     color: #ccc;
 }
 
-.CONTENT button {
+.CONTENT a {
     border: none;
     background: #c21500;
     /* fallback for old browsers */
@@ -681,6 +681,8 @@ li {
     background: linear-gradient(to right, #ffc500, #c21500);
     padding: 7px 20px;
     border-radius: 50px;
+    text-decoration: none;
+    color: #fff;
 }
 
 
