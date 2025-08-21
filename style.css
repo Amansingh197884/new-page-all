@@ -1092,6 +1092,7 @@ li {
     position: relative;
     height: 100px;
     margin-top: 5rem;
+    cursor: pointer;
     overflow: hidden;
     mask-image: linear-gradient(
         to right,
@@ -1144,7 +1145,6 @@ li {
 .new-boy:hover{
     transform: translateX(10);
 }
-
 
 
 .homee {
