@@ -54,20 +54,23 @@ p {
 
 .home {
     height: 100vh;
-    /* width: 1920px; */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.03)), url(images/banner-a.png);
     background-size: cover !important;
-    position: relative;
+    /* position: relative; */
     overflow: hidden;
-    animation: change 15s infinite linear;
+    transition: 5s;
+    animation-name: change;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* transition-duration: 10s; */
-    /* transition: 25s; */
+ animation-iteration-count: infinite;
+ animation-duration: 10s;
+ animation-direction: alternate-reverse;
+ animation-fill-mode: forwards;
+ animation-play-state: running;
+ animation-timing-function: linear;
 
 }
 
@@ -90,12 +93,12 @@ p {
 
     }
 
-    20% {
+    50% {
         background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),
             url(images/banner-b.png);
     }
 
-    40% {
+    100% {
         background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),
             url(images/banner-c.png);
 
@@ -317,9 +320,11 @@ a {
 }
 
 .navbar-color {
-    background-color: rgb(30, 30, 30);
+    background-color: black;
     border: none;
+
 }
+
 
 .new {
     background-image: url(https://i.pinimg.com/736x/18/90/ce/1890ce5a1b0ee9ea4d73cd425275e654.jpg);
@@ -1143,19 +1148,24 @@ li {
 
 
 .homee {
-    height: 100vh;
-    /* width: 1920px; */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.6)), url(images/Untitled\ design\ \(14\)-Picsart-AiImageEnhancer\ \(1\).png);
+   height: 100vh;
     background-size: cover !important;
-    position: relative;
+    /* position: relative; */
     overflow: hidden;
-    animation: changee 15s infinite linear;
+    transition: 5s;
+    animation-name: changee;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* text-align: center; */
+    text-align: center;
+ animation-iteration-count: infinite;
+ animation-duration: 10s;
+ animation-direction: alternate-reverse;
+ animation-fill-mode: forwards;
+ animation-play-state: running;
+ animation-timing-function: linear;
 
 }
 
@@ -1172,20 +1182,20 @@ li {
 
 @keyframes changee {
     0% {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.6)),
-            url(images/Untitled\ design\ \(14\)-Picsart-AiImageEnhancer\ \(1\).png);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),
+            url(https://i.pinimg.com/1200x/03/a4/1d/03a41d170ee2a6c5770f5bbc94318e2a.jpg);
 
 
     }
 
     20% {
         background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),
-            url(images/Untitled\ design\ \(15\).png);
+            url(https://i.pinimg.com/1200x/c6/29/58/c62958a760f5ceb843f70f2cfcb74159.jpg);
     }
 
-    40% {
+    100% {
         background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),
-            url(images/Untitled\ design\ \(15\).png);
+            url(https://i.pinimg.com/1200x/33/5b/55/335b553d91e2c3b1d73d755e597b5934.jpg);
 
     }
 
