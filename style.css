@@ -65,12 +65,12 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
- animation-iteration-count: infinite;
- animation-duration: 10s;
- animation-direction: alternate-reverse;
- animation-fill-mode: forwards;
- animation-play-state: running;
- animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-timing-function: linear;
 
 }
 
@@ -645,30 +645,6 @@ li {
 
 .filter-card:hover {}
 
-.CONTENT {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    position: absolute;
-    background: rgba(255, 255, 255, 0.797);
-    transition: 0.6s;
-    opacity: 0;
-    color: rgb(16, 15, 15);
-    border-radius: 20px;
-    filter: blur(10);
-
-}
-
-.CONTENT:hover {
-    opacity: 1;
-    ;
-}
-
 .star h3 {
     color: white;
 }
@@ -680,14 +656,13 @@ li {
 .CONTENT a {
     border: none;
     background: #c21500;
-    /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ffc500, #c21500);
-    /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ffc500, #c21500);
     padding: 7px 20px;
     border-radius: 50px;
     text-decoration: none;
-    color: #fff;
+    color: #000000;
+    font-weight: 500 !important;
 }
 
 
@@ -1063,6 +1038,7 @@ li {
     /* animation-delay: -15s; */
 
 }
+
 .itemmm {
     width: 200px;
     height: 100px;
@@ -1077,9 +1053,10 @@ li {
     /* animation-delay: -15s; */
 
 }
+
 @keyframes scrollleftt {
 
-    to{
+    to {
         right: -200px;
     }
 }
@@ -1094,19 +1071,17 @@ li {
     margin-top: 5rem;
     cursor: pointer;
     overflow: hidden;
-    mask-image: linear-gradient(
-        to right,
+    mask-image: linear-gradient(to right,
             rgba(0, 0, 0, 0),
             rgba(0, 0, 0, 1) 20%,
             rgba(0, 0, 0, 1) 80%,
-            rgba(0, 0, 0, 0)
-        );
+            rgba(0, 0, 0, 0));
 
 }
 
 @keyframes scrollleft {
 
-    to{
+    to {
         left: -200px;
     }
 }
@@ -1142,13 +1117,14 @@ li {
 .item8 {
     animation-delay: calc(30s / 8 * (8 - 8) * -1);
 }
-.new-boy:hover{
+
+.new-boy:hover {
     transform: translateX(10);
 }
 
 
 .homee {
-   height: 100vh;
+    height: 110vh;
     background-size: cover !important;
     /* position: relative; */
     overflow: hidden;
@@ -1160,12 +1136,12 @@ li {
     justify-content: center;
     align-items: center;
     text-align: center;
- animation-iteration-count: infinite;
- animation-duration: 10s;
- animation-direction: alternate-reverse;
- animation-fill-mode: forwards;
- animation-play-state: running;
- animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-timing-function: linear;
 
 }
 
@@ -1243,10 +1219,12 @@ li {
 .item-new {
     border-left: 2px solid white;
 }
-.item-new h3{
+
+.item-new h3 {
     color: #1abc9c;
 }
-.bright{
+
+.bright {
     background-color: transparent;
     display: inline-block;
     border-radius: 20px;
@@ -1254,24 +1232,26 @@ li {
     text-align: center;
     color: #fff;
     font-weight: 400;
-  }
+}
 
 
-    .new-button{
-        font-size: 1.1rem;
-        padding: 0.9rem 2em;
-        /* border: 2px solid; */
-        color: #fff;
-        border: none;
+.new-button {
+    font-size: 1.1rem;
+    padding: 0.9rem 2em;
+    /* border: 2px solid; */
+    color: #fff;
+    border: none;
     background: linear-gradient(45deg, #1abc9c, #149279);
-  border-radius: 50px;
-    }
-    .new-button:hover{
-        transform: translateY( -5px);
-        color: #fff;
-    }
-    .Ameneties-hover{
-           width: 100%;
+    border-radius: 50px;
+}
+
+.new-button:hover {
+    transform: translateY(-5px);
+    color: #fff;
+}
+
+.Ameneties-hover {
+    width: 100%;
     height: 100%;
     top: 0;
     left: 0;
@@ -1286,11 +1266,187 @@ li {
     color: rgb(246, 246, 246);
     border-radius: 20px;
     filter: blur(10);
-            transform: translateX(1px);
+    transform: translateX(1px);
 
+}
+
+.Ameneties-hover:hover {
+    opacity: 1;
+    transform: translateX(0px);
+    width: 100%;
+}
+
+/* pre loader css  */
+
+
+
+/* Card Base */
+.card-hover {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    background: var(--card);
+    /* box-shadow: 0 10px 30px rgba(0, 0, 0, .35); */
+    isolation: isolate;
+    block-size: 360px;
+    outline: none;
+    transition: transform .35s ease, box-shadow .35s ease;
+}
+
+.card-hover:focus-visible {
+    box-shadow: 0 12px 36px rgba(0, 0, 0, .45), 0 0 0 3px color-mix(in oklab, var(--accent), white 30%);
+}
+
+
+
+.card-hover img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    filter: saturate(0.9) contrast(0.95);
+    transition: transform .7s cubic-bezier(.2, .65, .2, 1), filter .7s ease;
+    will-change: transform;
+}
+
+.card-hover:hover img,
+.card:focus-within img {
+    transform: scale(1.08);
+    filter: saturate(1.05) contrast(1.05);
+}
+
+.card-hover::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(to top, rgba(10, 12, 24, .85) 0%, rgba(10, 12, 24, .6) 35%, transparent 65%);
+    pointer-events: none;
+    opacity: .85;
+    transition: opacity .45s ease;
+}
+
+.card-hover::after,
+.card:focus-within::after {
+    opacity: 1;
+}
+
+/* Content that reveals on hover */
+.content {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    transform: translateY(18%);
+    opacity: 0;
+    transition: transform .45s cubic-bezier(.2, .75, .25, 1), opacity .45s ease;
+    background: rgba(255, 255, 255, 0.797);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    filter: blur(10);
+    border-radius: 20px;
+}
+
+.card-hover:hover .content,
+.card:focus-within .content {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 4px;
+}
+
+
+
+
+.hint {
+    padding: 6px 10px;
+    border-radius: 999px;
+    transform: translateY(0);
+    opacity: .9;
+    transition: opacity .3s ease;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    ;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2;
+    width: 100%;
+ 
+}
+
+.card-hover:hover .hint,
+.card:focus-within .hint {
+    opacity: 0;
+}
+
+.card-hover a,
+.card-hover button {
+    outline: none;
+}
+
+.card-hover a:focus-visible {
+    box-shadow: 0 0 0 3px color-mix(in oklab, var(--accent), white 25%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .card-hover,
+    .card-hover img,
+    .content,
+    .card-hover::after,
+    .btn {
+        transition: none;
     }
-    .Ameneties-hover:hover{
-        opacity: 1;
-        transform: translateX(0px);
-        width: 100%;
-    }
+}
+.hint span {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.hint h3 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+/* Content that reveals on hover */
+.contentt {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    transform: translateY(18%);
+    opacity: 0;
+    transition: transform .45s cubic-bezier(.2, .75, .25, 1), opacity .45s ease;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    filter: blur(10);
+    border-radius: 20px;
+}
+
+.card-hover:hover .contentt,
+.card:focus-within .contentt {
+    transform: translateY(0);
+    opacity: 1;
+}
