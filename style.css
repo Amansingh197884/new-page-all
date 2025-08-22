@@ -1451,17 +1451,18 @@ li {
     opacity: 1;
 }
 .contact-section{
-    background-color: #f1efef;
-      display: flex;
+   background: url("https://i.pinimg.com/736x/e3/fe/03/e3fe039b1e2f1ffa1fb6a5b33355c252.jpg") no-repeat center center/cover;
+      overflow: hidden;      display: flex;
       justify-content: center;
       align-items: center;
       min-height: 100vh;
+      color: #fff !important;
       padding: 20px;
 }
 
     .contact-container {
-      background: #fff;
-      border-radius: 20px;
+  background: rgba(255,255,255,0.1);
+      backdrop-filter: blur(10px);      border-radius: 20px;
       box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
       padding: 20px;
       max-width: 900px;
@@ -1479,17 +1480,16 @@ li {
       justify-content: center;
       animation: slideLeft 1.5s ease-in-out;
       width: 80%;
+      color: #fff;
     }
 
     .contact-info h2 {
       font-size: 2rem;
       margin-bottom: 20px;
-      color: #333;
     }
 
     .contact-info p {
       margin: 10px 0;
-      color: #555;
       font-size: 1rem;
       display: flex;
       align-items: center;
@@ -1499,6 +1499,8 @@ li {
     /* Right Section - Form */
     .contact-form {
       animation: slideRight 1.5s ease-in-out;
+        background: rgba(255,255,255,0.1);
+
     }
 
     .contact-form h2 {
