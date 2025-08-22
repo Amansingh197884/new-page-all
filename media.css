@@ -1,15 +1,15 @@
 @media screen and (max-width:666px) {
-    .home h1 {
-        font-size: 15vw !important;
+    .hero h1 {
+        font-size: 9vw !important;
         color: white;
         font-weight: bold;
         padding-top: 70px;
     }
 
-    .home p {
+    .hero p {
         color: white;
-        font-size: 11px;
-        padding-top: 15px;
+        font-size: 6px;
+        padding-top: 1px;
     }
     .amv{
         padding-left: 0 !important;

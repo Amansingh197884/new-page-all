@@ -52,27 +52,62 @@ p {
     color: #fff !important;
 }
 
-.home {
-    height: 100vh;
-    background-size: cover !important;
-    /* position: relative; */
+  .hero {
+       position: relative;
+    width: 100%;
+    height: 100vh;                 /* full screen hero */
     overflow: hidden;
-    transition: 5s;
-    animation-name: change;
-    background-repeat: no-repeat;
-    background-position: center;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: system-ui, Arial;
     text-align: center;
-    animation-iteration-count: infinite;
-    animation-duration: 10s;
-    animation-direction: alternate-reverse;
-    animation-fill-mode: forwards;
-    animation-play-state: running;
-    animation-timing-function: linear;
+  }
 
-}
+  /* each slide is a full-cover layer */
+  .slide {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    animation: fade 12s infinite;
+    will-change: opacity;
+  }
+
+  /* stagger the animation for each slide */
+  .slide:nth-child(1){ animation-delay: 0s; }
+  .slide:nth-child(2){ animation-delay: 4s; }
+  .slide:nth-child(3){ animation-delay: 8s; }
+
+  /* fade keyframes: each slide appears for 4s, crossfades in/out smoothly */
+  @keyframes fade {
+    0%   { opacity: 0; }
+    8%   { opacity: 1; }   /* fade in */
+    33%  { opacity: 1; }   /* stay visible */
+    41%  { opacity: 0; }   /* fade out */
+    100% { opacity: 0; }
+  }
+
+  /* content on top */
+  .hero .hero-content{
+      position: relative;
+    z-index: 3;
+    text-align: center;
+    padding: 2rem;
+    /* backdrop-filter: blur(4px) saturate(1.1); */
+    /* background: rgba(0,0,0,0.25); */
+    border-radius: 12px;
+  }
+
+  @media (max-width:600px){
+    .hero{height:70vh}
+  }
+
+/* end  */
+
+
 
 @media screen and (max-width:600px) {
 
@@ -85,43 +120,6 @@ p {
     }
 }
 
-@keyframes change {
-    0% {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),
-            url(images/banner-a.png);
-
-
-    }
-
-    50% {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),
-            url(images/banner-b.png);
-    }
-
-    100% {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),
-            url(images/banner-c.png);
-
-    }
-
-}
-
-
-.hero {
-    height: 70vh;
-    width: 1920px;
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    /* padding-top: 125px; */
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-}
 
 .btn-card {
     padding: 10px 20px;
@@ -139,7 +137,7 @@ p {
 
 
 
-.home h1 {
+.hero h1 {
     font-size: 96px;
     color: white;
     font-family: "Montserrat", sans-serif;
@@ -148,7 +146,7 @@ p {
     font-style: normal;
 }
 
-.home p {
+.hero p {
     color: white;
     font-size: 15px;
     padding-top: 15px;
@@ -1450,7 +1448,7 @@ li {
     transform: translateY(0);
     opacity: 1;
 }
-.contact-section{
+/* .contact-section{
    background: url("https://i.pinimg.com/736x/e3/fe/03/e3fe039b1e2f1ffa1fb6a5b33355c252.jpg") no-repeat center center/cover;
       overflow: hidden;      display: flex;
       justify-content: center;
@@ -1474,7 +1472,7 @@ li {
     }
 
     /* Left Section */
-    .contact-info {
+    /* .contact-info {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -1494,10 +1492,10 @@ li {
       display: flex;
       align-items: center;
       gap: 10px;
-    }
+    } */
 
     /* Right Section - Form */
-    .contact-form {
+    /* .contact-form {
       animation: slideRight 1.5s ease-in-out;
         background: rgba(255,255,255,0.1);
 
@@ -1553,8 +1551,8 @@ li {
       transform: scale(1.05);
     }
 
-    /* Animations */
-    @keyframes fadeIn {
+    Animations */
+    /* @keyframes fadeIn {
       from { opacity: 0; transform: scale(0.95); }
       to { opacity: 1; transform: scale(1); }
     }
@@ -1567,10 +1565,10 @@ li {
     @keyframes slideRight {
       from { opacity: 0; transform: translateX(50px); }
       to { opacity: 1; transform: translateX(0); }
-    }
+    } */
 
     /* Responsive */
-    @media (max-width: 768px) {
+    /* @media (max-width: 768px) {
       .contact-container {
         grid-template-columns: 1fr;
         padding: 30px;
@@ -1579,4 +1577,4 @@ li {
         text-align: center;
         padding: 0 !important;
       }
-    }
+    }  */
