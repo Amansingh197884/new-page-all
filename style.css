@@ -1,4 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sen:wght@400..800&display=swap');
+ :root{
+      --bg: #0b0d12;
+      --card: #121623;
+      --muted: #a9b0c2;
+      --accent: #7dd3fc;
+      --radius: 18px;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+    }
+     /* fade-up states */
+    .fade-up{
+      opacity:0;
+      transform: translateY(var(--offset, 22px)) scale(.985);
+      transition:
+        opacity .8s ease,
+        transform .8s cubic-bezier(.2,.65,.2,1);
+      transition-delay: var(--delay, 0ms);
+      will-change: opacity, transform;
+    }
+    .fade-up.in-view{
+      opacity:1;
+      transform: translateY(0) scale(1);
+    }
 
 h1,
 h2,
@@ -194,16 +216,38 @@ p {
     box-shadow: rgba(226, 199, 148, 0.957) 0px 10px 50px;
 }
 
+
+
 .head-h2 {
-    margin-top: 0;
-    font-size: 48px;
-    margin-bottom: 20px;
-    line-height: 1.1em;
+  margin:0;
+      font-size: clamp(2.2rem, 6vw, 48px);
+      letter-spacing: -0.02em;
+          margin-bottom: 20px;
     font-weight: bold;
     padding-bottom: 5px;
+
+      animation: weightPulse 3.2s ease-in-out infinite;
+      background: linear-gradient(90deg, #e8ebf4, #7dd3fc, #a78bfa, #e8ebf4);
+      background-size: 200% 100%;
+      -webkit-background-clip:text;
+      background-clip:text;
+      color: transparent;
+      animation-name: weightPulse, shimmer;
+      animation-duration: 3.2s, 6s;
+      animation-timing-function: ease-in-out, linear;
+      animation-iteration-count: infinite, infinite;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
 }
+    @keyframes weightPulse{
+      0%,100%{ font-variation-settings: "wght" 650; }
+      50%{     font-variation-settings: "wght" 800; }
+    }
+    @keyframes shimmer{
+      0%{ background-position: 0% 50%; }
+      100%{ background-position: 200% 50%; }
+    }
+
 
 .rounded-20 {
     border-radius: 20px;
