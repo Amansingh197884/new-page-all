@@ -227,7 +227,7 @@ p {
     padding-bottom: 5px;
 
       animation: weightPulse 3.2s ease-in-out infinite;
-      background: linear-gradient(90deg, #e8ebf4, #7dd3fc, #a78bfa, #e8ebf4);
+      background: linear-gradient(90deg, #000000, #000000, #000000, #000000);
       background-size: 200% 100%;
       -webkit-background-clip:text;
       background-clip:text;
