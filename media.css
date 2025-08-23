@@ -64,6 +64,10 @@
         overflow: hidden;
         top: 100px;
     }
+    .info-card{
+        height: 123vh !important;
+        padding: 0px !important;
+    }
 }
 
 #nav-small {
