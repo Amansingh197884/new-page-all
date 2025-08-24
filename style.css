@@ -1446,6 +1446,29 @@ li {
     width: 100%;
  
 }
+.hintr {
+    padding: 6px 10px;
+    border-radius: 999px;
+    transform: translateY(0);
+    opacity: .9;
+    transition: opacity .3s ease;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    ;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2;
+    width: 100%;
+ 
+}
+.hintr h4{
+    font-size: 15px !important;
+}
 
 .card-hover:hover .hint,
 .card:focus-within .hint {
@@ -1565,4 +1588,12 @@ li {
     @keyframes fadeUp {
       0% { opacity: 0; transform: translateY(40px); }
       100% { opacity: 1; transform: translateY(0); }
+    }
+    .new-dew a{
+        text-decoration: none;
+        background: transparent;
+        color: #fff;
+        padding: 10px 20px;
+        border: #0dc29e 2px solid;
+        border-radius: 50px;
     }
