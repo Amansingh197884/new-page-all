@@ -11,7 +11,8 @@
         font-size: 9px;
         padding-top: 5px;
     }
-    .amv{
+
+    .amv {
         padding-left: 0 !important;
     }
 }
@@ -64,7 +65,8 @@
         overflow: hidden;
         top: 100px;
     }
-    .info-card{
+
+    .info-card {
         /* height: 123vh !important; */
         padding: 5px !important;
     }
@@ -84,11 +86,13 @@
         width: 100% !important;
         /* display: block; */
     }
-    .image-pa{
+
+    .image-pa {
         margin-top: 30px;
     }
-    .amv{
-                margin-top: 30px;
+
+    .amv {
+        margin-top: 30px;
 
     }
 }
@@ -133,31 +137,37 @@
     .new-c {
         visibility: hidden !important;
     }
-    .form-all{
+
+    .form-all {
         margin-top: 20px !important;
     }
-    .new-pa{
-    padding: 20px !important;
-    padding-top: 20px !important;
-    padding-bottom: 20px !important;
-}
-.HOME{
-    height: 35vh !important;
-}
-.contact{
-padding-top: 20px;
-padding-bottom: 20px;    
-padding: 35px 0px !important;
-}
-.contact-info{
-    margin-bottom: 40px;
-    width: 100%;
-}
-.contactt{
-padding-top: 20px;
-padding-bottom: 20px;    
-padding: 35px 0px !important;
-}
+
+    .new-pa {
+        padding: 20px !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .HOME {
+        height: 35vh !important;
+    }
+
+    .contact {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding: 35px 0px !important;
+    }
+
+    .contact-info {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    .contactt {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding: 35px 0px !important;
+    }
 }
 
 #nav-small li a:hover {
@@ -168,6 +178,7 @@ padding: 35px 0px !important;
 .new-c {
     visibility: visible;
 }
-.new-pa{
+
+.new-pa {
     padding: 50px;
 }
