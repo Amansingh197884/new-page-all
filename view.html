@@ -92,11 +92,11 @@
                                 <a class="nav-link" href="#Gallery">Gallery</a>
                             </li>
                             <li class="nav-item mx-2">
-                                                                <a class="nav-link" href="#floor plan">Floor Plan</a>
+                                <a class="nav-link" href="#floor plan">Floor Plan</a>
 
                             </li>
- <li class="nav-item mx-2">
-                                                                <a class="nav-link" href="#Location">Location</a>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#Location">Location</a>
 
                             </li>
 
@@ -123,8 +123,8 @@
         </div>
 
         <!-- foreground content -->
-        <div class="hero-content">
-            <h1 class="">
+        <div class="hero-content fade-up">
+            <h1 class="fade-up">
                 Ace Estate Plots<br>
                 <h3 class="text-white">Sector 22D, Yamuna Expressway</h3>
             </h1>
@@ -296,7 +296,7 @@
 
 
     <!-- Ameneties -->
-    <section  class="px-2 no-bottom pt30 container-fluid  mb-5" id="Ameneties">
+    <section class="px-2 no-bottom pt30 container-fluid  mb-5" id="Ameneties">
 
         <div class="container-fluid relative z-2" id="ameneties">
             <div class="row g-4">
@@ -828,6 +828,70 @@
     <!-- end  -->
 
 
+    <div class="container py-5">
+        <div class="row contact-section">
+            <!-- Contact Info -->
+            <div class="col-lg-4 contact-info d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Contact Info</h4>
+                    <p><i class="bi bi-geo-alt-fill"></i> 2912 Meadowbrook Road, Los Angeles, CA 90017</p>
+                    <p><i class="bi bi-envelope-fill"></i> lorem@ipsum.com</p>
+                    <p><i class="bi bi-telephone-fill"></i> 310-386-1623</p>
+                </div>
+                <div class="social-user mt-4">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="col-lg-8 contact-form">
+                <h4 class="mb-4">Send a Message</h4>
+                <form>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="inputBox">
+                                <input type="text" name="" id="" required="required">
+                                <span>Full name</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="inputBox">
+                                <input type="text" name="" id="" required="required">
+                                <span>Last name</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="inputBox">
+                                <input type="text" name="" id="" required="required">
+                                <span>Email</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="inputBox">
+                                <input type="text" name="" id="" required="required">
+                                <span>Mobile Number</span>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="inputBox">
+                                <textarea name="" id="" required="required"></textarea>
+                                <span>Type Your Message...</span>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="inputBox new-box">
+                                <input type="submit" name="" value="Send">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
 
     <!-- end  -->
 
@@ -1032,6 +1096,23 @@
             );
         });
     </script>
+
+      <script>
+    // Minimal Intersection Observer to toggle .in-view on scroll
+    const revealables = document.querySelectorAll('.fade-up');
+    const io = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting){
+          entry.target.classList.add('in-view');
+          // Uncomment below if you want it to animate every time it re-enters
+          // else keep it once-only:
+          obs.unobserve(entry.target);
+        }
+      });
+    }, { root: null, rootMargin: '0px 0px -10% 0px', threshold: 0.08 });
+
+    revealables.forEach(el => io.observe(el));
+  </script>
 </body>
 
 </html>
