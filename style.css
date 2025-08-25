@@ -78,7 +78,7 @@ p {
     height: 60vh;                 /* full screen hero */
     overflow: hidden;
     padding-top: 50PX;   
-    max-height: 100vh;
+    /* max-height: 100vh; */
     display: flex;
     align-items: center;
     justify-content: center;
