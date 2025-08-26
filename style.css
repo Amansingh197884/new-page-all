@@ -776,6 +776,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* padding: 10px; */
     /* text-align: center; */
     /* align-content: center; */
     flex-direction: column;
@@ -1928,3 +1929,4 @@ pointer-events: none;
       50% {transform: translateY(-15px);}
       100% {transform: translateY(0);}
     }
+    
