@@ -1929,4 +1929,6 @@ pointer-events: none;
       50% {transform: translateY(-15px);}
       100% {transform: translateY(0);}
     }
-    
+    .logo span{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
