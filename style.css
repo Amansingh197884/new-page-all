@@ -80,7 +80,7 @@ p {
 
 .navbar {
     border-bottom: 1px solid rgba(154, 150, 150, 0.5);
-    padding: 20px !important;
+    /* padding: 20px !important; */
      font-family: "Merienda", cursive;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -103,6 +103,7 @@ p {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-size: 18px !important;
 }
 
 .HOME {
@@ -279,12 +280,13 @@ p {
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+  border-radius: 50px;
     
 
 }
 
 .btn-main:hover {
-    background-color: rgb(186, 163, 121);
+    background-color: rgb(236, 185, 89);
     box-shadow: rgba(226, 199, 148, 0.957) 0px 10px 50px;
 }
 
@@ -2015,3 +2017,6 @@ pointer-events: none;
       margin-top: 30px;
       font-size: 14px;
     }
+    .navbar-nav .dropdown-menu {
+    position: absolute !important;
+}
