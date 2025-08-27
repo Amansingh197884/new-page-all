@@ -37,12 +37,20 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
+  font-family: "Merienda", cursive !important;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
-
+p,
+a,
+input,
+li{
+      font-family: "Merienda", cursive !important;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
 .swiper-slide span {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
