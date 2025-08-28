@@ -2050,10 +2050,7 @@ pointer-events: none;
 }
 
     .mv-list li {
-      font-size: 1.1rem;
-      margin-bottom: 15px;
-      display: flex;
-      align-items: center;
+    
       opacity: 0;
       animation: fadeInLeft 0.8s forwards;
     }
