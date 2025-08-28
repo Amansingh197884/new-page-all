@@ -1104,6 +1104,10 @@ background: linear-gradient(to right, #ED8F03, #FFB75E);
     align-items: center;
     font-size: 0.95rem;
 }
+.information i{
+    color: #f5af19 !important;
+    font-size: 25px !important;
+}
 
 .icon {
     width: 28px;
@@ -1795,7 +1799,7 @@ background: linear-gradient(to right, #ED8F03, #FFB75E);
 
 .icon-box {
     font-size: 40px;
-    color: #0dcaf0;
+    color: #f5af19;
     margin-bottom: 15px;
 }
 
@@ -1815,6 +1819,7 @@ background: linear-gradient(to right, #ED8F03, #FFB75E);
 
 .mv-list i {
     margin-top: .2rem;
+    color: #f5af19;
 }
 
 
