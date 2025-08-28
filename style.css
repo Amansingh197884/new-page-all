@@ -874,7 +874,7 @@ li {
 
 .box .text h3 {
     font-weight: 500;
-    color: #00bcd4;
+    color: #f5af19 !important;
 }
 
 .contact-form {
@@ -1075,7 +1075,7 @@ li {
 
 .contact-form .high-btn input[type="submit"] {
     width: 100px;
-    background: linear-gradient(45deg, #1abc9c, #149279);
+background: linear-gradient(to right, #ED8F03, #FFB75E);
     color: #fff;
     border: none;
     cursor: pointer;
@@ -1127,7 +1127,7 @@ li {
     width: 35px;
     height: 35px;
     border-radius: 5px;
-    background: linear-gradient(45deg, #1abc9c, #149279);
+background: linear-gradient(to right, #ED8F03, #FFB75E);
     color: #fff;
     text-align: center;
     line-height: 35px;
