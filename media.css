@@ -25,7 +25,7 @@
         line-height: 1.1em;
         font-weight: bold;
         padding-bottom: 5px;
-       
+
     }
 }
 
@@ -103,15 +103,17 @@
         width: 100% !important;
         /* display: block; */
     }
-      .footer li{
-      margin-bottom: 0px;
+
+    .footer li {
+        margin-bottom: 0px;
 
     }
-      .new-border {
-    border-top: 1px solid rgba(154, 150, 150, 0.5);
-    display: contents;
-    justify-content: start;
-}
+
+    .new-border {
+        border-top: 1px solid rgba(154, 150, 150, 0.5);
+        display: contents;
+        justify-content: start;
+    }
 }
 
 @media only screen and (max-width: 992px) {
