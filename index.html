@@ -38,8 +38,12 @@
 
 <body>
 
- 
+  <div id="preloader">
+    <div class="infinity-loader"></div>
+  </div>
 
+
+  <main id="landing">
     <!-- header  -->
     <!-- navbar start  -->
     <header>
@@ -1577,6 +1581,14 @@
     revealables.forEach(el => io.observe(el));
   </script>
 
+ <script>
+   window.onload=function () {
+document.getElementById ('preloader') .style.display="none"
+document.getElementById ('landing') .style.display="block"
+
+   };
+  </script>
+  </main>
 </body>
 
 </html>

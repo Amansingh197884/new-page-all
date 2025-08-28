@@ -35,6 +35,13 @@
         rel="stylesheet">
 </head>
 
+
+ <div id="preloader">
+    <div class="infinity-loader"></div>
+  </div>
+
+
+  <main id="landing">
 <body>
     <!-- navbar start  -->
      <header>
@@ -622,6 +629,16 @@
             );
         });
     </script>
+
+     <script>
+   window.onload=function () {
+document.getElementById ('preloader') .style.display="none"
+document.getElementById ('landing') .style.display="block"
+
+   };
+  </script>
+    </main>
+
 </body>
 
 </html>
