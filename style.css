@@ -2132,11 +2132,11 @@ pointer-events: none;
     #landing {
       display: none;
       height: 100vh;
-      color: #fff;
-      text-align: center;
+      /* color: #fff; */
+      /* text-align: center; */
       display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      /* flex-direction: column; */
+      /* justify-content: center; */
+      /* align-items: center; */
     }
 
