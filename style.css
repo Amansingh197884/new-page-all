@@ -1811,7 +1811,7 @@ background: linear-gradient(to right, #ED8F03, #FFB75E);
 
 .mv-list li {
     display: flex;
-    gap: .75rem;
+    /* gap: .75rem; */
     align-items: flex-start;
     margin: .6rem 0;
     color: #d1d5db;
