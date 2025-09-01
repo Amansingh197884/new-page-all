@@ -287,7 +287,7 @@ p {
 
 .btn-main:hover {
     background-color: rgb(236, 185, 89);
-    border: none;
+    border: 1.5px solid rgb(236, 185, 89);
     box-shadow: rgba(226, 199, 148, 0.957) 0px 10px 50px;
 }
 .main-btn{
